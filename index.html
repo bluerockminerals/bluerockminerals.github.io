@@ -188,23 +188,20 @@
             transition: all 0.3s;
             border-top: 4px solid #1c2f41;
         }
+        .servicio-imagen {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
 
         .servicio-card:hover {
             transform: translateY(-10px);
             box-shadow: 0 12px 35px rgba(28,47,65,0.15);
         }
 
-        .servicio-icon {
-            width: 70px;
-            height: 70px;
-            background: linear-gradient(135deg, #1c2f41, #2c4557);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            font-size: 2rem;
-        }
+    
 
         .servicio-card h3 {
             color: #1c2f41;
@@ -462,7 +459,20 @@
         <h2>Nuestros Servicios</h2>
         <div class="servicios">
             <div class="servicio-card">
-                <div class="servicio-icon">⛏️</div>
+    <img src="servicio-extraccion.jpg" alt="Extracción de Minerales" class="servicio-imagen">
+    <h3>Extracción de Minerales</h3>
+    <p>Proceso de extracción optimizado con tecnología de punta que simplifica cada etapa de la obtención y procesamiento de minerales de alta calidad.</p>
+</div>
+<div class="servicio-card">
+    <img src="servicio-logistica.jpg" alt="Logística y Exportación" class="servicio-imagen">
+    <h3>Logística y Exportación</h3>
+    <p>Gestión integral de transporte y exportación de minerales con los más altos estándares de calidad, seguridad y cumplimiento normativo internacional.</p>
+</div>
+<div class="servicio-card">
+    <img src="servicio-consultoria.jpg" alt="Análisis y Consultoría" class="servicio-imagen">
+    <h3>Análisis y Consultoría Minera</h3>
+    <p>Evaluación técnica especializada, análisis de calidad y asesoramiento experto en optimización de procesos mineros.</p>
+</div>
                 <h3>Extracción de Minerales</h3>
                 <p>Proceso de extracción optimizado que simplifica cada etapa de la descompra y venta de minerales de alta calidad.</p>
             </div>
